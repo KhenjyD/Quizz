@@ -155,8 +155,18 @@ namespace quizz
                 }
                 break;
             }
-            Console.WriteLine("Vous avez eut " + quizz.score + " sur 10 !");
 
+            if(quizz.score > 5)
+            {
+                Console.Write("Vous avez eut " + quizz.score + " sur 10 !", Console.BackgroundColor = ConsoleColor.DarkGreen);
+                Console.ResetColor();
+            }
+            else
+            {
+                Console.Write("Vous avez eut " + quizz.score + " sur 10...", Console.BackgroundColor = ConsoleColor.DarkRed);
+                Console.ResetColor();
+            }
+            
 
         }
     }

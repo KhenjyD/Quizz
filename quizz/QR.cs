@@ -45,11 +45,12 @@ namespace quizz
 
         public void printQR()
         {
-            Console.WriteLine(question);
+            Console.WriteLine(question, Console.ForegroundColor = ConsoleColor.Blue);
             foreach(KeyValuePair<int, string> choice in choices)
             {
-                Console.WriteLine(choice.Key + " - " + choice.Value);
+                Console.WriteLine(choice.Key + " - " + choice.Value, Console.ForegroundColor = ConsoleColor.Yellow);
             }
+            Console.ResetColor();
         }
     }
 }
