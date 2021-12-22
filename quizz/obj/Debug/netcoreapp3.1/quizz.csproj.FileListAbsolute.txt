@@ -1,0 +1,14 @@
+C:\Users\khenk\Desktop\quizz\quizz\bin\Debug\netcoreapp3.1\quizz.exe
+C:\Users\khenk\Desktop\quizz\quizz\bin\Debug\netcoreapp3.1\quizz.deps.json
+C:\Users\khenk\Desktop\quizz\quizz\bin\Debug\netcoreapp3.1\quizz.runtimeconfig.json
+C:\Users\khenk\Desktop\quizz\quizz\bin\Debug\netcoreapp3.1\quizz.runtimeconfig.dev.json
+C:\Users\khenk\Desktop\quizz\quizz\bin\Debug\netcoreapp3.1\quizz.dll
+C:\Users\khenk\Desktop\quizz\quizz\bin\Debug\netcoreapp3.1\quizz.pdb
+C:\Users\khenk\Desktop\quizz\quizz\obj\Debug\netcoreapp3.1\quizz.csproj.AssemblyReference.cache
+C:\Users\khenk\Desktop\quizz\quizz\obj\Debug\netcoreapp3.1\quizz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khenk\Desktop\quizz\quizz\obj\Debug\netcoreapp3.1\quizz.AssemblyInfoInputs.cache
+C:\Users\khenk\Desktop\quizz\quizz\obj\Debug\netcoreapp3.1\quizz.AssemblyInfo.cs
+C:\Users\khenk\Desktop\quizz\quizz\obj\Debug\netcoreapp3.1\quizz.csproj.CoreCompileInputs.cache
+C:\Users\khenk\Desktop\quizz\quizz\obj\Debug\netcoreapp3.1\quizz.dll
+C:\Users\khenk\Desktop\quizz\quizz\obj\Debug\netcoreapp3.1\quizz.pdb
+C:\Users\khenk\Desktop\quizz\quizz\obj\Debug\netcoreapp3.1\quizz.genruntimeconfig.cache
