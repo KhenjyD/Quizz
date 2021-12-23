@@ -32,6 +32,11 @@ namespace quizz
         /* Affiche les questions mal répondus avec leurs réponses */
         public void printWrongAnswers()
         {
+            if (wrongAnswers.Count == 0)
+            {
+                return;
+            }
+
             Console.WriteLine("Voici les questions où vous avez eut faux avec leurs réponses.");
             foreach (QR wrong in wrongAnswers)
             {
