@@ -101,7 +101,7 @@ namespace quizz
                 question10
             };
 
-            Quizz quizz = new Quizz(qcm , 0);
+            Quizz quizz = new Quizz(qcm , 0, new List<QR>());
             int choice = 5;
             List<int> choices = new List<int>();
 
@@ -149,7 +149,15 @@ namespace quizz
                     }
                     
 
-                    quizz.AddScore(question.VerifyAnswers(choices));
+                    
+                    if (!question.VerifyAnswers(choices))
+                    {
+                        quizz.getWrongAnswers(question);
+                    } 
+                    else
+                    {
+                        quizz.AddScore();
+                    }
                     choices.Clear();
                     Console.WriteLine("\n");
                 }
@@ -160,13 +168,16 @@ namespace quizz
             {
                 Console.Write("Vous avez eut " + quizz.score + " sur 10 !", Console.BackgroundColor = ConsoleColor.DarkGreen);
                 Console.ResetColor();
+                Console.WriteLine("\n");
             }
             else
             {
-                Console.Write("Vous avez eut " + quizz.score + " sur 10...", Console.BackgroundColor = ConsoleColor.DarkRed);
+                Console.Write("Vous avez eut " + quizz.score + " sur 10...n", Console.BackgroundColor = ConsoleColor.DarkRed);
                 Console.ResetColor();
+                Console.WriteLine("\n");
             }
-            
+
+            quizz.printWrongAnswers();
 
         }
     }

@@ -43,6 +43,7 @@ namespace quizz
             return correct;
         }
 
+        /* Affiche la question et ses choix multiples */
         public void printQR()
         {
             Console.WriteLine(question, Console.ForegroundColor = ConsoleColor.Blue);
